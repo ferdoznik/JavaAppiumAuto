@@ -1,14 +1,14 @@
+import com.sun.org.apache.xpath.internal.operations.Or;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class MainClassTest extends MainClass
 {
     @Test
-    public void testGetClassNumber()
+    public void  testGetClassString()
     {
-        if (a > 45){
-            Assert.fail("The result is more than 45");}
+        if (a.contains ("Hello")){System.out.println("The message contains 'Hello'");}
+        else if (a.contains ("hello")){System.out.println("The message contains 'hello'");}
+        else Assert.fail("The message doesn't contain Hello");
     }
-
 }
-

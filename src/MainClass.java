@@ -1,14 +1,13 @@
 import org.junit.Test;
 public class MainClass
 {
-    int a = 20;
+    String a = "Hello, world";
     @Test
-    public void getClassNumber()
+    public void getClassString()
     {
-        int a = class_number();
-        System.out.println(a);
+        String a = class_string();
     }
-    private int class_number()
+    private String class_string()
     {
         return a;
     }
