@@ -1,15 +1,15 @@
 import org.junit.Test;
 public class MainClass
 {
-    int a=takeLocalNumber();
+    int a = class_number();
     @Test
-    public void getLocalNumber()
+    public void getClassNumber()
     {
-        int a = takeLocalNumber();
+        int a = class_number();
         System.out.println(a);
     }
-    public int takeLocalNumber()
+    private int class_number()
     {
-        return 14;
+        return 60;
     }
 }
