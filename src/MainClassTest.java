@@ -6,7 +6,9 @@ public class MainClassTest extends MainClass
     @Test
     public void testGetClassNumber()
     {
-        int result = a;
-        if (result > 45) {Assert.fail("The result is more than 45");}
+        if (a > 45){
+            Assert.fail("The result is more than 45");}
     }
+
 }
+

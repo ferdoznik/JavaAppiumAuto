@@ -1,7 +1,7 @@
 import org.junit.Test;
 public class MainClass
 {
-    int a = class_number();
+    int a = 20;
     @Test
     public void getClassNumber()
     {
@@ -10,6 +10,6 @@ public class MainClass
     }
     private int class_number()
     {
-        return 20;
+        return a;
     }
 }
