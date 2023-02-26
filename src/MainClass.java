@@ -10,6 +10,6 @@ public class MainClass
     }
     private int class_number()
     {
-        return 60;
+        return 20;
     }
 }
